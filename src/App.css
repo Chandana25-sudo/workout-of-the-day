@@ -106,24 +106,40 @@ h7{
     top: -17px;
     color: whitesmoke;
 }
-/* @media (min-width:1440px) { 
-    p{
-        left: 451px !important;
-        top: 95px !important;
+i{
+    position:absolute;
+    font-size: 26px;
+    cursor: pointer;
+}
+#left-arrow{
+    left: 500px;
+    /* right: 10px; */
+    top: 167px;
+    
+}
+#right-arrow{
+    right: 488px;
+    top: 168px;
+}
+
+@media (min-width:1440px) { 
+    #left-arrow{
+        left: 511px !important;
+    top: 181px !important;
     }
-    h7{
-        left: 472px !important;
-        top: 114px !important;
+    #right-arrow{
+        left: 819px !important;
+    top: 177px !important;
     }
 
-}
-@media (min-width:1440px) { 
-    p{
-        left: 239px !important;
-        top: 68px !important;
+} 
+/* @media (min-width:1024px) { 
+    #left-arrow{
+        left: 336px;
+    top: 137px;
     }
-    h7{
-        left: 241px !important;
-        top: 48px !important;
+    #right-arrow{
+        right: 328px;
+    top: 132px;
     }
 } */

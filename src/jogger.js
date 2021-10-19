@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import Signup from '../child-pages/signup';
+
 class Jogger extends Component {
     constructor() {
         super();
@@ -33,18 +33,7 @@ class Jogger extends Component {
        
         
     }
-    // formatAMPM(){
-    //     var hours = today.getHours();
-    //     var minutes = today.getMinutes();
-    //      var ampm = hours >= 12 ? 'PM' : 'AM';
-    //     hours = hours % 12;
-    //     hours = hours ? hours : 12; // the hour '0' should be '12'
-    //     minutes = minutes < 10 ? '0'+minutes : minutes;
-    //     var strTime = hours + ':' + minutes + ' ' + ampm;
-    //     this.setState({time: this.strTime});
-    //     console.log(strTime);
-    //     return this.strTime;
-    //   }
+    
 
     render() {
         return (
@@ -55,7 +44,9 @@ class Jogger extends Component {
                 </div>   
                  {/* <p>This is Jogger-Component</p> */}
                  {/* <img src="https://i0.wp.com/shop.truefitness.com/wp-content/…tock_000009285219_Large.jpg?fit=2594%2C1921&ssl=1"/> */}
-                    <h1>YOGA</h1>
+                 <i className="bi-arrow-left" id="left-arrow" style={{color:'rgb(76, 132, 236)'}}></i>
+                 <h1>YOGA</h1>
+                 <i className="bi-arrow-right" id="right-arrow" style={{color:'rgb(76, 132, 236)'}}></i>
                     <div className="div1">
                         <h4 className="weather">WEATHER</h4>
                             
