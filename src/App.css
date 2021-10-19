@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+body {
+    background-color: rgb(159, 181, 221);
+}
+.Jogger-component {
+    text-align: center;
+    /* background-color: white; */
+    width:600px;
+    height: 245px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+    background-image: url("../src/assests/yoga-img.png");
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgb(159, 181, 221);
+    font-weight: 700;
+    font-size: 80px;
+}
+.nav-bars a{
+    margin:10px;
+    color: rgb(131, 134, 139);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+    margin: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h4{
+    color: rgb(188, 206, 240);
+    font-size: 11px;
+    padding: 0px 26px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-bars{
+    position: relative;
+    right: -147px;
+    bottom: -37px;
 }
-
-.App-link {
-  color: #61dafb;
+p{
+    /* top: 54px; */
+    position: absolute;
+    /* left: 169px; */
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 500;
 }
+h7 {
+    position: absolute;
+    /* top: 36px; */
+    /* left: 170px; */
+    color: whitesmoke;
+}
+/* .weather {
+    position: relative;
+    left: 68px;
+}
+.distance {
+    position: relative;
+    left: 68px;
+    top: 16px; 
+} */
+a:hover {
+     font-weight: 700;
+     /* text-decoration: underline;
+     text-decoration-color: blue; */
+     border-bottom: rgb(76, 132, 236);
+     border: 10px;
+}
+.time{
+    
+    font-size: 14px;
+    font-weight: 800;
+    color:rgb(128, 123, 123)
+}
+.kms{
+    position: relative;
+    left: 101px;
+}
+.degrees{
+    position: relative;
+    left: 84px;
+}
+.div1{
+    display: flex;
+    justify-content: end;
+}
+.values{
+    display: flex;
+    justify-content:center;
+}
+h5{
+    font-size: 12px;
+    font-weight: 800;
+    color:rgb(128, 123, 123);
+    padding: 0px 26px;
+}
+@media (min-width:1440px) { 
+    p{
+        left: 451px !important;
+        top: 95px !important;
+    }
+    h7{
+        left: 472px !important;
+        top: 114px !important;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+@media (min-width:1440px) { 
+    p{
+        left: 239px !important;
+        top: 68px !important;
+    }
+    h7{
+        left: 241px !important;
+        top: 48px !important;
+    }
 }
