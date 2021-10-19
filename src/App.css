@@ -46,12 +46,12 @@ p{
     font-size: 17px;
     font-weight: 500;
 }
-h7 {
+/* h7 {
     position: absolute;
-    /* top: 36px; */
-    /* left: 170px; */
+    top: 36px;
+    left: 170px;
     color: whitesmoke;
-}
+} */
 /* .weather {
     position: relative;
     left: 68px;
@@ -96,7 +96,17 @@ h5{
     color:rgb(128, 123, 123);
     padding: 0px 26px;
 }
-@media (min-width:1440px) { 
+.main{
+    position: relative;
+    top: -38px;
+}
+h7{
+    position: absolute;
+    left: 3px;
+    top: -17px;
+    color: whitesmoke;
+}
+/* @media (min-width:1440px) { 
     p{
         left: 451px !important;
         top: 95px !important;
@@ -116,4 +126,4 @@ h5{
         left: 241px !important;
         top: 48px !important;
     }
-}
+} */
